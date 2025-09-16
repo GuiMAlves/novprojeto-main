@@ -3,9 +3,43 @@ body {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    
 
     border-color: black;
-    border-style: dotted;
-    border-width: 5px;
-    padding: 30px;
+    border-style: inset;
+    border-width: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+body header h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+body header ul {
+    background-color: azure;
+}
+
+body section {
+    background-color: azure;
+}
+
+body section form {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+body div {
+    color: darkblue;
+}
+
+body h3 {
+    color: darkred;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+body footer {
+    background-color: azure;
 }
